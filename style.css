@@ -1,0 +1,46 @@
+body{
+padding: 0;
+margin: 0;
+}
+
+body, h1{
+    font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+body, h2{
+    font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+body, p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header{
+    background-color: #112b3c;
+    color: #fff;
+    padding: 1px;
+    text-align: center;
+}
+
+section{
+    background: #fff;
+    margin: 25px auto;
+    padding: 10px;
+    max-width: 800px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+tr,th, td{
+  border: solid grey;
+  padding: 5px;
+}
+ th{
+  background-color:rgb(83, 188, 192) ;
+}
+td{
+  background-color: aliceblue;
+}
